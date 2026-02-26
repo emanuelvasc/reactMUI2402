@@ -8,6 +8,8 @@ import UseEffect from "./Components/UseEffect";
 import ContadorEstoque from "./Components/ContadorEstoque";
 import MonitorEstoque from "./Components/MonitorEstoque";
 import CronometroSimples from "./Components/CronometroSimples";
+import ExemploSweetAlert from "./Components/ExemploSweetAlert";
+import CadastroClientes from "./Components/CadastroCliente";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <ContadorEstoque />
       <MonitorEstoque />
       <CronometroSimples />
+      <ExemploSweetAlert />
+      <CadastroClientes />
     </>
   );
 }
